@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DRAGOPON</title>
+    <script src="./js/DP.js"></script>
+</head>
+<body>
+    <h1> DRAGOPON! 🔥💧🌱</h1>
+
+    <section id="seleccionar-Guerrero">
+        <h2>Elige tu guerrero:</h2>
+
+        <label for="Goku"> Goku </label>
+        <input type="radio" name="guerrero" id="Goku" />
+
+        <label for="Vegeta"> Vegeta </label>
+        <input type="radio" name="guerrero" id="Vegeta" />
+
+        <label for="Gohan"> Gohan </label>
+        <input type="radio" name="guerrero" id="Gohan" />
+
+        <button id="boton-guerrero">seleccionar</button>
+     </section>
+
+    <section id="seleccionar-ataque">
+        <h2>Elige tu ataque</h2>
+
+
+        <p>Tu guerrero <span id="guerrero-jugador"></span> tiene <span>3</span> vidas</p>
+        <p>El guerrero <span id="guerrero-enemigo" ></span> del enemigo tiene <span>3</span> vidas</p>
+         
+        <p>
+            <button id="boton-fuego">Fuego 🔥</button>
+            <button id="boton-agua">Agua 💧</button>
+            <button id="boton-tierra">Tierra 🌱</button>
+
+        </p>
+    </section>
+
+    <section id="mensajes">
+        <p>Tu Guerrero ataco con Fuego 🔥, el guerrero de tu enemigo ataco con Agua 💧- Ganaste! 🎉 </p>
+    </section>
+
+    <section id="Reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+   </body>
+</html>
